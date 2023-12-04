@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "./Logo";
 import { DarkModeToggleButton } from "./DarkModeToggleButton";
+import UserNav from "./User/UserNav";
 
 const Header = () => {
   return (
@@ -9,6 +10,7 @@ const Header = () => {
         <Logo />
         <div className="flex items-center justify-end flex-1 space-x-4">
           <DarkModeToggleButton />
+          <UserNav />
         </div>
       </nav>
       {/* Upgrade Banner */}
